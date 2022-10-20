@@ -58,6 +58,13 @@ window.snake.more_menu = function() {
   img.height = 47;
   document.querySelector('#size').appendChild(img);
 
+  // way too big
+  img = new Image;
+  img.src = 'https://github.com/carlgustavh/GoogleSnakeCustomMenuStuffImages/blob/main/Way%20Too%20Big.png?raw=true';
+  img.width = 47;
+  img.height = 47;
+  document.querySelector('#size').appendChild(img);
+
 
   /*--SPEEDS--*/
 
