@@ -531,6 +531,7 @@ window.snake.more_menu = function() {
                       ? 8
                     : ${thjaselcdtctedaboupplelcountthingffjfjfjfjfjfjfjfjfjfj} === 10
                       ? 10
+                      : 0
                   ) / 1.25), -4));
                   ${pafihwotyhopyplacetheiopafsjafijplesllllllll} i- ~~((
                     ${thjaselcdtctedaboupplelcountthingffjfjfjfjfjfjfjfjfjfj} === 3
@@ -549,6 +550,7 @@ window.snake.more_menu = function() {
                       ? 8
                      : ${thjaselcdtctedaboupplelcountthingffjfjfjfjfjfjfjfjfjfj} === 10
                       ? 10
+                      : 0
                   ) / 1.25), 4));
                   
                 }
