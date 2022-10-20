@@ -246,7 +246,7 @@ window.snake.more_menu = function() {
   img.height = 47;
   document.querySelector('#count').appendChild(img);
   
-    // 8
+  // 8
   img = new Image;
   img.src = 'https://raw.githubusercontent.com/Dannicrufti/Snake/main/8.png';
   img.width = 47;
@@ -329,7 +329,7 @@ window.snake.more_menu = function() {
             case 13: _le = .00001; break;
             case 14: _le = 0.39;   break;
             case 15: _le = 0.9;    break;
-            case 16: _le = 0.75;    break;
+            case 16: _le = 0.75;   break;
             default: _le = 1;      break;
           }
           ${realTileLength} = ${defaultTileLength} * _le;
@@ -352,7 +352,7 @@ window.snake.more_menu = function() {
                 ${pafihwotyhopyplacetheiopafsjafijplesllllllll} 1, 0));
                 ${pafihwotyhopyplacetheiopafsjafijplesllllllll} -1, 0));
                 ${pafihwotyhopyplacetheiopafsjafijplesllllllll} -3, 0));
-              if(${thjaselcdtctedaboupplelcountthingffjfjfjfjfjfjfjfjfjfj} === 3) {
+              } else if(${thjaselcdtctedaboupplelcountthingffjfjfjfjfjfjfjfjfjfj} === 3) {
                 ${pafihwotyhopyplacetheiopafsjafijplesllllllll} 1, 2));
                 ${pafihwotyhopyplacetheiopafsjafijplesllllllll} -1, 2));
                 ${pafihwotyhopyplacetheiopafsjafijplesllllllll} -3, 2));
