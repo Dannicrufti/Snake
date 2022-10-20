@@ -82,8 +82,8 @@ window.snake.more_menu = function() {
   // Perfect
   img = new Image;
   img.src = 'https://raw.githubusercontent.com/Dannicrufti/Snake/main/smaller.png';
-  img.width = 25;
-  img.height = 25;
+  img.width = 40;
+  img.height = 40;
   document.querySelector('#size').appendChild(img);
 
   /*--SPEEDS--*/
