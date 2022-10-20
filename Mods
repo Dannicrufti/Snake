@@ -193,6 +193,14 @@ window.snake.more_menu = function() {
   img.height = 47;
   img.class = 'DqMRee SsAred';
   document.querySelector('#speed').appendChild(img);
+  
+      // FastSnake2
+  img = new Image;
+  img.src = 'https://raw.githubusercontent.com/Dannicrufti/Snake/main/Nicefast.png';
+  img.width = 47;
+  img.height = 47;
+  img.class = 'DqMRee SsAred';
+  document.querySelector('#speed').appendChild(img);
 
   /*--COUNTS--*/
 
@@ -314,6 +322,7 @@ window.snake.more_menu = function() {
             case 13: _le = .00001; break;
             case 14: _le = 0.39;   break;
             case 15: _le = 0.9;    break;
+            case 16: _le = 0.8;    break;
             default: _le = 1;      break;
           }
           ${realTileLength} = ${defaultTileLength} * _le;
@@ -547,6 +556,7 @@ window.snake.more_menu = function() {
           case 13: a = .00001; break a;
           case 14: a =  0.39;  break a;
           case 15: a =  0.9;   break a;
+          case 16: a =  0.8;   break a;
           default: a = 1;      break a;
         }`)
       );
