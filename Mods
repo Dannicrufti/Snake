@@ -258,7 +258,7 @@ window.snake.more_menu = function() {
           let _le;
           switch(${speed}) {
             case 1:  _le = .66;    break;
-            case 2:  _le = 1.33;   break;
+            case 2:  _le = 19.33;   break;
             case 3:  _le = _soup;  break;
             case 4:  _le = .45;    break;
             case 5:  _le = 1.85;   break;
