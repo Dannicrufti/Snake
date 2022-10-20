@@ -528,10 +528,9 @@ window.snake.more_menu = function() {
                     : ${thjaselcdtctedaboupplelcountthingffjfjfjfjfjfjfjfjfjfj} === 8
                       ? 0
                     : ${thjaselcdtctedaboupplelcountthingffjfjfjfjfjfjfjfjfjfj} === 9
-                      ? 0
+                      ? 8
                     : ${thjaselcdtctedaboupplelcountthingffjfjfjfjfjfjfjfjfjfj} === 10
                       ? 10
-                    : 0
                   ) / 1.25), -4));
                   ${pafihwotyhopyplacetheiopafsjafijplesllllllll} i- ~~((
                     ${thjaselcdtctedaboupplelcountthingffjfjfjfjfjfjfjfjfjfj} === 3
@@ -545,8 +544,11 @@ window.snake.more_menu = function() {
                     : ${thjaselcdtctedaboupplelcountthingffjfjfjfjfjfjfjfjfjfj} === 7
                       ? 0
                     : ${thjaselcdtctedaboupplelcountthingffjfjfjfjfjfjfjfjfjfj} === 8
+                      ? 0
+                     : ${thjaselcdtctedaboupplelcountthingffjfjfjfjfjfjfjfjfjfj} === 9
                       ? 8
-                    : 0
+                     : ${thjaselcdtctedaboupplelcountthingffjfjfjfjfjfjfjfjfjfj} === 10
+                      ? 10
                   ) / 1.25), 4));
                   
                 }
