@@ -150,7 +150,14 @@ window.snake.more_menu = function() {
   img.height = 47;
   img.class = 'DqMRee SsAred';
   document.querySelector('#speed').appendChild(img);
-
+  
+// BlueLightning
+  img = new Image;
+  img.src = 'https://raw.githubusercontent.com/Dannicrufti/Snake/main/A0529B30-5084-4369-8D2B-143DF914337A.png?raw=true';
+  img.width = 47;
+  img.height = 47;
+  img.class = 'DqMRee SsAred';
+  document.querySelector('#speed').appendChild(img);
 
   /*--COUNTS--*/
 
@@ -258,7 +265,7 @@ window.snake.more_menu = function() {
           let _le;
           switch(${speed}) {
             case 1:  _le = .66;    break;
-            case 2:  _le = 19.33;  break;
+            case 2:  _le = 1.33;   break;
             case 3:  _le = _soup;  break;
             case 4:  _le = .45;    break;
             case 5:  _le = 1.85;   break;
@@ -270,6 +277,7 @@ window.snake.more_menu = function() {
             case 11: _le = .05;    break;
             case 12: _le = 26640;  break;
             case 13: _le = .00001; break;
+            case 14: _le = 1.7;    break;
             default: _le = 1;      break;
           }
           ${realTileLength} = ${defaultTileLength} * _le;
@@ -489,7 +497,7 @@ window.snake.more_menu = function() {
           /s_\.reset=function\(\){this\.[a-zA-Z0-9_$]{1,8}=null;[^]*?!0\)\)}/
         )[0].replace('s_', corrects_).replace(/{case 1:a=\.66[^}]*?1}/, `{
           case 1:  a = .66;    break a;
-          case 2:  a = 19.33;  break a;
+          case 2:  a = 1.33;  break a;
           case 3:  a = _soup;  break a;
           case 4:  a = .45;    break a;
           case 5:  a = 1.85;   break a;
@@ -501,6 +509,7 @@ window.snake.more_menu = function() {
           case 11: a = .05;    break a;
           case 12: a = 26640;  break a;
           case 13: a = .00001; break a;
+          case 14: a =  1.7;   break a;
           default: a = 1;      break a;
         }`)
       );
