@@ -245,6 +245,13 @@ window.snake.more_menu = function() {
   img.width = 47;
   img.height = 47;
   document.querySelector('#count').appendChild(img);
+  
+    // 8
+  img = new Image;
+  img.src = 'https://raw.githubusercontent.com/Dannicrufti/Snake/main/8.png';
+  img.width = 47;
+  img.height = 47;
+  document.querySelector('#count').appendChild(img);
 
   /* making do things */
   const scripts = document.getElementsByTagName('script');
@@ -336,6 +343,15 @@ window.snake.more_menu = function() {
           `
           if(${thjaselcdtctedaboupplelcountthingffjfjfjfjfjfjfjfjfjfj} > 2) {
             if(!(${inevilmodesf}(this.settings))) {
+                if(${thjaselcdtctedaboupplelcountthingffjfjfjfjfjfjfjfjfjfj} === 9) {
+                ${pafihwotyhopyplacetheiopafsjafijplesllllllll} 1, 2));
+                ${pafihwotyhopyplacetheiopafsjafijplesllllllll} -1, 2));
+                ${pafihwotyhopyplacetheiopafsjafijplesllllllll} -3, 2));
+                ${pafihwotyhopyplacetheiopafsjafijplesllllllll} 0, 1));
+                ${pafihwotyhopyplacetheiopafsjafijplesllllllll} -2, 1));
+                ${pafihwotyhopyplacetheiopafsjafijplesllllllll} 1, 0));
+                ${pafihwotyhopyplacetheiopafsjafijplesllllllll} -1, 0));
+                ${pafihwotyhopyplacetheiopafsjafijplesllllllll} -3, 0));
               if(${thjaselcdtctedaboupplelcountthingffjfjfjfjfjfjfjfjfjfj} === 3) {
                 ${pafihwotyhopyplacetheiopafsjafijplesllllllll} 1, 2));
                 ${pafihwotyhopyplacetheiopafsjafijplesllllllll} -1, 2));
@@ -472,6 +488,8 @@ window.snake.more_menu = function() {
                       ? 0
                     : ${thjaselcdtctedaboupplelcountthingffjfjfjfjfjfjfjfjfjfj} === 8
                       ? 0
+                    : ${thjaselcdtctedaboupplelcountthingffjfjfjfjfjfjfjfjfjfj} === 9
+                      ? 8
                     : 0
                   ); i++
                 ) {
@@ -488,6 +506,8 @@ window.snake.more_menu = function() {
                       ? 0
                     : ${thjaselcdtctedaboupplelcountthingffjfjfjfjfjfjfjfjfjfj} === 8
                       ? 0
+                    : ${thjaselcdtctedaboupplelcountthingffjfjfjfjfjfjfjfjfjfj} === 9
+                      ? 0
                     : 0
                   ) / 1.25), -4));
                   ${pafihwotyhopyplacetheiopafsjafijplesllllllll} i- ~~((
@@ -502,7 +522,7 @@ window.snake.more_menu = function() {
                     : ${thjaselcdtctedaboupplelcountthingffjfjfjfjfjfjfjfjfjfj} === 7
                       ? 0
                     : ${thjaselcdtctedaboupplelcountthingffjfjfjfjfjfjfjfjfjfj} === 8
-                      ? 0
+                      ? 8
                     : 0
                   ) / 1.25), 4));
                   
