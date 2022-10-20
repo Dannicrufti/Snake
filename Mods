@@ -157,9 +157,9 @@ window.snake.more_menu = function() {
     
     // 13
     img = new Image;
-    img.src = 'https://github.com/carlgustavh/GoogleSnakeCustomMenuStuffImages/blob/main/13.png?raw=true';
-    img.width = 47;
-    img.height = 47;
+    img.src = 'https://raw.githubusercontent.com/Dannicrufti/Snake/main/D8A67A81-8F53-48E7-A0A6-15350B1A0587.png';
+    img.width = 120;
+    img.height = 120;
     document.querySelector('#count').appendChild(img);
     
     // 25
