@@ -536,6 +536,8 @@ window.snake.more_menu = function() {
                       ? 13
                     : ${thjaselcdtctedaboupplelcountthingffjfjfjfjfjfjfjfjfjfj} === 4
                       ? 25
+                    : ${thjaselcdtctedaboupplelcountthingffjfjfjfjfjfjfjfjfjfj} === 10
+                      ? 10
                     : ${thjaselcdtctedaboupplelcountthingffjfjfjfjfjfjfjfjfjfj} === 5
                       ? 40
                     : ${thjaselcdtctedaboupplelcountthingffjfjfjfjfjfjfjfjfjfj} === 6
