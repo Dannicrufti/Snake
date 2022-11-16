@@ -210,6 +210,14 @@ window.snake.more_menu = function() {
   img.class = 'DqMRee SsAred';
   document.querySelector('#speed').appendChild(img);
 
+      // Fake
+  img = new Image;
+  img.src = 'https://github.com/carlgustavh/GoogleSnakeCustomMenuStuffImages/blob/main/Blue%20Bullet.png?raw=true';
+  img.width = 47;
+  img.height = 47;
+  img.class = 'DqMRee SsAred';
+  document.querySelector('#speed').appendChild(img);
+
   /*--COUNTS--*/
 
   // 130
@@ -354,6 +362,7 @@ window.snake.more_menu = function() {
             case 15: _le = 0.9;    break;
             case 16: _le = 0.75;   break;
             case 17: _le = _sope;  break;
+            case 18: _le = 1;  break;
             default: _le = 1;      break;
           }
           ${realTileLength} = ${defaultTileLength} * _le;
@@ -628,7 +637,8 @@ window.snake.more_menu = function() {
           case 14: a =  0.39;  break a;
           case 15: a =  0.9;   break a;
           case 16: a =  0.75;  break a;
-          case 17: a = _sope; break a;
+          case 17: a = _sope;  break a;
+          case 18: a = 1;      break a;
           default: a = 1;      break a;
         }`)
       );
