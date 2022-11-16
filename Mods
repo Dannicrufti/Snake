@@ -202,6 +202,14 @@ window.snake.more_menu = function() {
   img.class = 'DqMRee SsAred';
   document.querySelector('#speed').appendChild(img);
 
+      // RocketSnail
+  img = new Image;
+  img.src = 'https://i.ibb.co/zRkVq0N/removal-ai-a7742e25-4d14-4e39-b047-10bdf2d07bda.png';
+  img.width = 47;
+  img.height = 47;
+  img.class = 'DqMRee SsAred';
+  document.querySelector('#speed').appendChild(img);
+
   /*--COUNTS--*/
 
   // 130
@@ -326,6 +334,7 @@ window.snake.more_menu = function() {
           f,
           f + `_soup = Math.random() < .5 ? .66 : 1.33;
           _soep = Math.random() < .5 ? .45 : 1.85;
+          _sope = Math.random() < 2.5 ? 2.45 : .15;
           let _le;
           switch(${speed}) {
             case 1:  _le = .66;    break;
@@ -344,6 +353,7 @@ window.snake.more_menu = function() {
             case 14: _le = 0.39;   break;
             case 15: _le = 0.9;    break;
             case 16: _le = 0.75;   break;
+            case 17: _le = _sope;  break;
             default: _le = 1;      break;
           }
           ${realTileLength} = ${defaultTileLength} * _le;
@@ -618,6 +628,7 @@ window.snake.more_menu = function() {
           case 14: a =  0.39;  break a;
           case 15: a =  0.9;   break a;
           case 16: a =  0.75;  break a;
+          case 17: a =  _sope;  break a;
           default: a = 1;      break a;
         }`)
       );
