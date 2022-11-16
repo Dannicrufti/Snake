@@ -334,7 +334,7 @@ window.snake.more_menu = function() {
           f,
           f + `_soup = Math.random() < .5 ? .66 : 1.33;
           _soep = Math.random() < .5 ? .45 : 1.85;
-          _sope = Math.random() < 2.5 ? 2.45 : .15;
+          _sope = Math.random() < 7.5 ? 7.5 : .1;
           let _le;
           switch(${speed}) {
             case 1:  _le = .66;    break;
@@ -353,7 +353,7 @@ window.snake.more_menu = function() {
             case 14: _le = 0.39;   break;
             case 15: _le = 0.9;    break;
             case 16: _le = 0.75;   break;
-            case 17: _le = _sope;  break;
+            case 17: _le = Math.random() < 7.5 ? 7.5 : .1;  break;
             default: _le = 1;      break;
           }
           ${realTileLength} = ${defaultTileLength} * _le;
@@ -628,7 +628,7 @@ window.snake.more_menu = function() {
           case 14: a =  0.39;  break a;
           case 15: a =  0.9;   break a;
           case 16: a =  0.75;  break a;
-          case 17: a =  _sope; break a;
+          case 17: a =  Math.random() < 7.5 ? 7.5 : .1; break a;
           default: a = 1;      break a;
         }`)
       );
