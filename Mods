@@ -204,7 +204,7 @@ window.snake.more_menu = function() {
 
       // RocketSnail
   img = new Image;
-  img.src = 'https://i.ibb.co/zRkVq0N/removal-ai-a7742e25-4d14-4e39-b047-10bdf2d07bda.png';
+  img.src = 'https://i.ibb.co/CwCDHBZ/removal-ai-tmp-6374dd1bb83e3.png';
   img.width = 47;
   img.height = 47;
   img.class = 'DqMRee SsAred';
