@@ -281,6 +281,20 @@ window.snake.more_menu = function() {
   img.width = 47;
   img.height = 47;
   document.querySelector('#count').appendChild(img);
+  
+      // blackhole
+  img = new Image;
+  img.src = 'https://i.ibb.co/CHqSF0x/CE36542-E-6130-4-BD5-AC43-4-D15-AF09483-F.png';
+  img.width = 47;
+  img.height = 47;
+  document.querySelector('#count').appendChild(img);
+
+    // Missile
+  img = new Image;
+  img.src = 'https://i.ibb.co/7RGM2WH/removal-ai-tmp-637b6fae020e8.png';
+  img.width = 47;
+  img.height = 47;
+  document.querySelector('#count').appendChild(img);
 
   /* making do things */
   const scripts = document.getElementsByTagName('script');
@@ -534,6 +548,14 @@ window.snake.more_menu = function() {
                 }
               } else if(${thjaselcdtctedaboupplelcountthingffjfjfjfjfjfjfjfjfjfj} === 12) {
                   for (i=0;i<0;i++) {
+                    ${pafihwotyhopyplacetheiopafsjafijplesllllllll} -1, 0));
+                  }
+              } else if(${thjaselcdtctedaboupplelcountthingffjfjfjfjfjfjfjfjfjfj} === 13) {
+                  for (i=0;i<5088000;i++) {
+                    ${pafihwotyhopyplacetheiopafsjafijplesllllllll} -1, 0));
+                  }
+              } else if(${thjaselcdtctedaboupplelcountthingffjfjfjfjfjfjfjfjfjfj} === 14) {
+                  for (i=0;i<1000;i++) {
                     ${pafihwotyhopyplacetheiopafsjafijplesllllllll} -1, 0));
                   }
               } else
