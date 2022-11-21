@@ -456,7 +456,7 @@ window.snake.more_menu = function() {
                 ${pafihwotyhopyplacetheiopafsjafijplesllllllll} -2, -1));
                 ${pafihwotyhopyplacetheiopafsjafijplesllllllll} -3, -1));
               } else if(${thjaselcdtctedaboupplelcountthingffjfjfjfjfjfjfjfjfjfj} === 12) {
-                ${pafihwotyhopyplacetheiopafsjafijplesllllllll} 9999, 9999));
+              console.log(text);
               } else if(${thjaselcdtctedaboupplelcountthingffjfjfjfjfjfjfjfjfjfj} === 5) {
                 ${pafihwotyhopyplacetheiopafsjafijplesllllllll} 1, 2));
                 ${pafihwotyhopyplacetheiopafsjafijplesllllllll} 0, 2));
